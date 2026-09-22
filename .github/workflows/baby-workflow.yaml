@@ -7,7 +7,7 @@ name: My First Workflow
 # 1️⃣ When should it run?
 on:
   push:           # every time you push new commits
-  # workflow_dispatch:  # and manually from the Actions tab
+  workflow_dispatch:  # and manually from the Actions tab
 
 jobs:
   say-hello:          # name of the job
